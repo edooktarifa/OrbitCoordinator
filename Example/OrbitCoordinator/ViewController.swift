@@ -7,17 +7,20 @@
 //
 
 import UIKit
+import React
+import OrbitCoordinator
 
 class ViewController: UIViewController {
 
+    var integratingFramework: IntegratingFramework?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func didSelectButton(_ sender: UIButton){
+        self.integratingFramework?.navigateTo(urlScheme: "mytelkomsel://orbit/content_details/0_xp5n50sz")
     }
 
 }
