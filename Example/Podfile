@@ -2,14 +2,15 @@
 # use_frameworks!
 
 require_relative '../../orbitRNApp/node_modules/react-native/scripts/react_native_pods'
-install! 'cocoapods', :deterministic_uuids => false
+# require_relative '../../orbitRNApp/node_modules/@react-native-community/cli-platform-ios/native_modules'
 
 platform :ios, '11.0'
+install! 'cocoapods', :deterministic_uuids => false
 
-target 'OrbitCoordinator_Example' do
+target 'OrbitCoordinator' do
   pod 'OrbitCoordinator', :path => '../'
-	pod 'MyTelkomselSuperappFrameworkIntegration', :path => '../../../mytelkomsel-superapp-framework-integration-ios'
-  pod 'MyTelkomselSuperappFramework', :path => '../../../mytelkomsel-superapp-framework-ios'
+  pod 'MyTelkomselSuperappFrameworkIntegration', :path => '../../../mytelkomsel-superapp-framework-integration-ios'
+ pod 'MyTelkomselSuperappFramework', :path => '../../../mytelkomsel-superapp-framework-ios'
 
 flags = get_default_flags()
 
@@ -22,10 +23,10 @@ use_react_native!(
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
- use_flipper!()
+use_flipper!()
 
   post_install do |installer|
     react_native_post_install(installer)
-    __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
+
 end

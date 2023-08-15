@@ -1,9 +1,8 @@
 //
 //  IntegrationFramework.swift
-//  OrbitCoordinator_Example
+//  OrbitCoordinator
 //
-//  Created by Phincon on 08/08/23.
-//  Copyright © 2023 CocoaPods. All rights reserved.
+//  Created by Phincon on 15/08/23.
 //
 
 import Foundation
@@ -11,10 +10,10 @@ import UIKit
 import MyTelkomselSuperappFramework
 import MyTelkomselSuperappFrameworkIntegration
 
-class IntegratingFramework {
+public final class IntegratingFramework {
     private let frameworkCoordinator: FrameworkCoordinator?
 
-    init(navigationController: UINavigationController) {
+    public init(navigationController: UINavigationController) {
         frameworkCoordinator = FrameworkCoordinator(
             context: SharedContext(
                 navigationController: navigationController,
@@ -25,11 +24,11 @@ class IntegratingFramework {
         )
     }
 
-    func navigateTo(urlScheme: String) {
+    public func navigateTo(urlScheme: String) {
         frameworkCoordinator?.invoke(urlScheme: urlScheme)
     }
 
-    func updateLanguage() {
+    public func updateLanguage() {
         frameworkCoordinator?.context.language = ""
     }
 

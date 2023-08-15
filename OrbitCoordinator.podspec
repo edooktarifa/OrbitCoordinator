@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
   s.dependency 'MyTelkomselSuperappFrameworkIntegration', '0.0.1'
-  s.dependency 'MyTelkomselSuperappFramework', '0.0.6'
   s.dependency 'React'
+
 
   s.source_files = 'OrbitCoordinator/Classes/**/*'
   

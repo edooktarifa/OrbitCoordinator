@@ -8,7 +8,6 @@
 
 import UIKit
 import React
-import OrbitCoordinator
 
 class ViewController: UIViewController {
 
@@ -17,6 +16,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        guard let nvc = navigationController else { return }
+        integratingFramework = IntegratingFramework(navigationController: nvc)
     }
 
     @IBAction func didSelectButton(_ sender: UIButton){

@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33114BBB58CA0AF2590A658A /* libPods-OrbitCoordinator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D42185F862FECD0DD4C1A90 /* libPods-OrbitCoordinator.a */; };
 		369198D12A82388E008409CC /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 369198D02A82388E008409CC /* main.jsbundle */; };
-		369199332A824D82008409CC /* IntegrationFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369199322A824D82008409CC /* IntegrationFramework.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		88EB7994100BEBCD39C6B1A0 /* libPods-OrbitCoordinator_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8703D4ABDBF17D58ED3611 /* libPods-OrbitCoordinator_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,15 +28,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D42185F862FECD0DD4C1A90 /* libPods-OrbitCoordinator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrbitCoordinator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F6D7837CFE91C9596911C45 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		31BFFF781B1CF355965A1156 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		369198D02A82388E008409CC /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		369198D62A823F95008409CC /* libMyTelkomselSuperappFrameworkIntegration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMyTelkomselSuperappFrameworkIntegration.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		369198D82A824020008409CC /* libMyTelkomselSuperappFrameworkIntegration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMyTelkomselSuperappFrameworkIntegration.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		369199322A824D82008409CC /* IntegrationFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationFramework.swift; sourceTree = "<group>"; };
 		3A82273033BA275C47165C3E /* Pods-OrbitCoordinator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitCoordinator_Example.debug.xcconfig"; path = "Target Support Files/Pods-OrbitCoordinator_Example/Pods-OrbitCoordinator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		556D605D18E82C3E4D5C1E08 /* Pods-OrbitCoordinator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitCoordinator_Example.release.xcconfig"; path = "Target Support Files/Pods-OrbitCoordinator_Example/Pods-OrbitCoordinator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* OrbitCoordinator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitCoordinator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A8AD427A5A19E3AB16F814 /* Pods-OrbitCoordinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitCoordinator.debug.xcconfig"; path = "Target Support Files/Pods-OrbitCoordinator/Pods-OrbitCoordinator.debug.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* OrbitCoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,8 +47,8 @@
 		607FACE51AFB9204008FA782 /* OrbitCoordinator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitCoordinator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		AA0F38F9714FBEB6D9C9F053 /* Pods-OrbitCoordinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitCoordinator.release.xcconfig"; path = "Target Support Files/Pods-OrbitCoordinator/Pods-OrbitCoordinator.release.xcconfig"; sourceTree = "<group>"; };
 		CAD8988A84F6072625B2D4F2 /* OrbitCoordinator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OrbitCoordinator.podspec; path = ../OrbitCoordinator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FB8703D4ABDBF17D58ED3611 /* libPods-OrbitCoordinator_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrbitCoordinator_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88EB7994100BEBCD39C6B1A0 /* libPods-OrbitCoordinator_Example.a in Frameworks */,
+				33114BBB58CA0AF2590A658A /* libPods-OrbitCoordinator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* OrbitCoordinator_Example.app */,
+				607FACD01AFB9204008FA782 /* OrbitCoordinator.app */,
 				607FACE51AFB9204008FA782 /* OrbitCoordinator_Tests.xctest */,
 			);
 			name = Products;
@@ -101,7 +101,6 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
-				369199322A824D82008409CC /* IntegrationFramework.swift */,
 			);
 			name = "Example for OrbitCoordinator";
 			path = OrbitCoordinator;
@@ -147,7 +146,7 @@
 			children = (
 				369198D82A824020008409CC /* libMyTelkomselSuperappFrameworkIntegration.a */,
 				369198D62A823F95008409CC /* libMyTelkomselSuperappFrameworkIntegration.a */,
-				FB8703D4ABDBF17D58ED3611 /* libPods-OrbitCoordinator_Example.a */,
+				2D42185F862FECD0DD4C1A90 /* libPods-OrbitCoordinator.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,6 +156,8 @@
 			children = (
 				3A82273033BA275C47165C3E /* Pods-OrbitCoordinator_Example.debug.xcconfig */,
 				556D605D18E82C3E4D5C1E08 /* Pods-OrbitCoordinator_Example.release.xcconfig */,
+				58A8AD427A5A19E3AB16F814 /* Pods-OrbitCoordinator.debug.xcconfig */,
+				AA0F38F9714FBEB6D9C9F053 /* Pods-OrbitCoordinator.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -164,24 +165,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* OrbitCoordinator_Example */ = {
+		607FACCF1AFB9204008FA782 /* OrbitCoordinator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OrbitCoordinator_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OrbitCoordinator" */;
 			buildPhases = (
 				3EEACF201F7C4F13B6B5AAD0 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				71119E95144C0B1711493265 /* [CP] Embed Pods Frameworks */,
-				9502D478CD6A8430FBD86176 /* [CP] Copy Pods Resources */,
+				635F565DE3A0DDC331875967 /* [CP] Copy Pods Resources */,
+				7B52AE0363F58B9D6B326CC5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OrbitCoordinator_Example;
+			name = OrbitCoordinator;
 			productName = OrbitCoordinator;
-			productReference = 607FACD01AFB9204008FA782 /* OrbitCoordinator_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* OrbitCoordinator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* OrbitCoordinator_Tests */ = {
@@ -237,7 +238,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* OrbitCoordinator_Example */,
+				607FACCF1AFB9204008FA782 /* OrbitCoordinator */,
 				607FACE41AFB9204008FA782 /* OrbitCoordinator_Tests */,
 			);
 		};
@@ -280,20 +281,42 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OrbitCoordinator_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OrbitCoordinator-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		71119E95144C0B1711493265 /* [CP] Embed Pods Frameworks */ = {
+		635F565DE3A0DDC331875967 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator_Example/Pods-OrbitCoordinator_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator/Pods-OrbitCoordinator-resources.sh",
+				"${PODS_ROOT}/../../../../mytelkomsel-superapp-framework-ios/MyTelkomselSuperappFramework/Assets/Config",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MyTelkomselSuperappFramework/MyTelkomselSuperappFramework.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Config",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MyTelkomselSuperappFramework.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator/Pods-OrbitCoordinator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B52AE0363F58B9D6B326CC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator/Pods-OrbitCoordinator-frameworks.sh",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-Glog/glog.framework/glog",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
@@ -308,29 +331,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator_Example/Pods-OrbitCoordinator_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9502D478CD6A8430FBD86176 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator_Example/Pods-OrbitCoordinator_Example-resources.sh",
-				"${PODS_ROOT}/../../../../mytelkomsel-superapp-framework-ios/MyTelkomselSuperappFramework/Assets/Config",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MyTelkomselSuperappFramework/MyTelkomselSuperappFramework.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Config",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MyTelkomselSuperappFramework.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator_Example/Pods-OrbitCoordinator_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator/Pods-OrbitCoordinator-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -340,7 +341,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				369199332A824D82008409CC /* IntegrationFramework.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -359,7 +359,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* OrbitCoordinator_Example */;
+			target = 607FACCF1AFB9204008FA782 /* OrbitCoordinator */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -487,9 +487,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A82273033BA275C47165C3E /* Pods-OrbitCoordinator_Example.debug.xcconfig */;
+			baseConfigurationReference = 58A8AD427A5A19E3AB16F814 /* Pods-OrbitCoordinator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				INFOPLIST_FILE = OrbitCoordinator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -503,9 +504,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 556D605D18E82C3E4D5C1E08 /* Pods-OrbitCoordinator_Example.release.xcconfig */;
+			baseConfigurationReference = AA0F38F9714FBEB6D9C9F053 /* Pods-OrbitCoordinator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				INFOPLIST_FILE = OrbitCoordinator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -567,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OrbitCoordinator_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OrbitCoordinator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
