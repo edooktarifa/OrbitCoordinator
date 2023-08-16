@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="z2Q-3u-pTv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="z2Q-3u-pTv">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpt-qt-IUR">
-                                <rect key="frame" x="0.0" y="44" width="375" height="35"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
@@ -30,9 +30,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Mpt-qt-IUR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Euh-v7-Emr"/>
                             <constraint firstItem="Mpt-qt-IUR" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="KkW-cV-J4e"/>
                             <constraint firstItem="Mpt-qt-IUR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="OHY-q7-gqQ"/>
                             <constraint firstAttribute="trailing" secondItem="Mpt-qt-IUR" secondAttribute="trailing" id="ZtY-vZ-aDz"/>
+                            <constraint firstItem="Mpt-qt-IUR" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="jWH-YI-hLS"/>
+                            <constraint firstAttribute="trailing" secondItem="Mpt-qt-IUR" secondAttribute="trailing" id="l9O-MH-NVv"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gml-Rb-iUi"/>
@@ -47,7 +50,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z2Q-3u-pTv" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Wqn-QZ-6zm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

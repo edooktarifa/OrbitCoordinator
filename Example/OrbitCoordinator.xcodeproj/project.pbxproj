@@ -15,7 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		88EB7994100BEBCD39C6B1A0 /* libPods-OrbitCoordinator_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8703D4ABDBF17D58ED3611 /* libPods-OrbitCoordinator_Example.a */; };
+		945642B4081ECB60CD73CB65 /* libPods-OrbitCoordinator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD27AAD709297EDCFCB475D /* libPods-OrbitCoordinator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,8 @@
 		369199322A824D82008409CC /* IntegrationFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationFramework.swift; sourceTree = "<group>"; };
 		3A82273033BA275C47165C3E /* Pods-OrbitCoordinator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitCoordinator_Example.debug.xcconfig"; path = "Target Support Files/Pods-OrbitCoordinator_Example/Pods-OrbitCoordinator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		556D605D18E82C3E4D5C1E08 /* Pods-OrbitCoordinator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitCoordinator_Example.release.xcconfig"; path = "Target Support Files/Pods-OrbitCoordinator_Example/Pods-OrbitCoordinator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* OrbitCoordinator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitCoordinator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD27AAD709297EDCFCB475D /* libPods-OrbitCoordinator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrbitCoordinator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* OrbitCoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,8 +48,9 @@
 		607FACE51AFB9204008FA782 /* OrbitCoordinator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitCoordinator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		74A9DFDB62AFB67665455C88 /* Pods-OrbitCoordinator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitCoordinator.debug.xcconfig"; path = "Target Support Files/Pods-OrbitCoordinator/Pods-OrbitCoordinator.debug.xcconfig"; sourceTree = "<group>"; };
+		AC0729F8D613B7C0DEBE9F19 /* Pods-OrbitCoordinator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrbitCoordinator.release.xcconfig"; path = "Target Support Files/Pods-OrbitCoordinator/Pods-OrbitCoordinator.release.xcconfig"; sourceTree = "<group>"; };
 		CAD8988A84F6072625B2D4F2 /* OrbitCoordinator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OrbitCoordinator.podspec; path = ../OrbitCoordinator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FB8703D4ABDBF17D58ED3611 /* libPods-OrbitCoordinator_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrbitCoordinator_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88EB7994100BEBCD39C6B1A0 /* libPods-OrbitCoordinator_Example.a in Frameworks */,
+				945642B4081ECB60CD73CB65 /* libPods-OrbitCoordinator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +88,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* OrbitCoordinator_Example.app */,
+				607FACD01AFB9204008FA782 /* OrbitCoordinator.app */,
 				607FACE51AFB9204008FA782 /* OrbitCoordinator_Tests.xctest */,
 			);
 			name = Products;
@@ -147,7 +149,7 @@
 			children = (
 				369198D82A824020008409CC /* libMyTelkomselSuperappFrameworkIntegration.a */,
 				369198D62A823F95008409CC /* libMyTelkomselSuperappFrameworkIntegration.a */,
-				FB8703D4ABDBF17D58ED3611 /* libPods-OrbitCoordinator_Example.a */,
+				5FD27AAD709297EDCFCB475D /* libPods-OrbitCoordinator.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,6 +159,8 @@
 			children = (
 				3A82273033BA275C47165C3E /* Pods-OrbitCoordinator_Example.debug.xcconfig */,
 				556D605D18E82C3E4D5C1E08 /* Pods-OrbitCoordinator_Example.release.xcconfig */,
+				74A9DFDB62AFB67665455C88 /* Pods-OrbitCoordinator.debug.xcconfig */,
+				AC0729F8D613B7C0DEBE9F19 /* Pods-OrbitCoordinator.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -164,24 +168,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* OrbitCoordinator_Example */ = {
+		607FACCF1AFB9204008FA782 /* OrbitCoordinator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OrbitCoordinator_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OrbitCoordinator" */;
 			buildPhases = (
 				3EEACF201F7C4F13B6B5AAD0 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				71119E95144C0B1711493265 /* [CP] Embed Pods Frameworks */,
-				9502D478CD6A8430FBD86176 /* [CP] Copy Pods Resources */,
+				A360CFA0CC5F9FFC3975DC21 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OrbitCoordinator_Example;
+			name = OrbitCoordinator;
 			productName = OrbitCoordinator;
-			productReference = 607FACD01AFB9204008FA782 /* OrbitCoordinator_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* OrbitCoordinator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* OrbitCoordinator_Tests */ = {
@@ -237,7 +241,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* OrbitCoordinator_Example */,
+				607FACCF1AFB9204008FA782 /* OrbitCoordinator */,
 				607FACE41AFB9204008FA782 /* OrbitCoordinator_Tests */,
 			);
 		};
@@ -280,7 +284,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OrbitCoordinator_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OrbitCoordinator-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -293,7 +297,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator_Example/Pods-OrbitCoordinator_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator/Pods-OrbitCoordinator-frameworks.sh",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-Glog/glog.framework/glog",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
@@ -308,29 +312,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator_Example/Pods-OrbitCoordinator_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator/Pods-OrbitCoordinator-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9502D478CD6A8430FBD86176 /* [CP] Copy Pods Resources */ = {
+		A360CFA0CC5F9FFC3975DC21 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator_Example/Pods-OrbitCoordinator_Example-resources.sh",
-				"${PODS_ROOT}/../../../../mytelkomsel-superapp-framework-ios/MyTelkomselSuperappFramework/Assets/Config",
+				"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator/Pods-OrbitCoordinator-resources.sh",
+				"${PODS_ROOT}/../../../mytelkomsel-superapp-framework-ios/MyTelkomselSuperappFramework/Assets/Config",
 				"${PODS_CONFIGURATION_BUILD_DIR}/MyTelkomselSuperappFramework/MyTelkomselSuperappFramework.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/OrbitCoordinator/OrbitCoordinator.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Config",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MyTelkomselSuperappFramework.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OrbitCoordinator.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator_Example/Pods-OrbitCoordinator_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrbitCoordinator/Pods-OrbitCoordinator-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -359,7 +365,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* OrbitCoordinator_Example */;
+			target = 607FACCF1AFB9204008FA782 /* OrbitCoordinator */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -487,7 +493,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A82273033BA275C47165C3E /* Pods-OrbitCoordinator_Example.debug.xcconfig */;
+			baseConfigurationReference = 74A9DFDB62AFB67665455C88 /* Pods-OrbitCoordinator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OrbitCoordinator/Info.plist;
@@ -503,7 +509,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 556D605D18E82C3E4D5C1E08 /* Pods-OrbitCoordinator_Example.release.xcconfig */;
+			baseConfigurationReference = AC0729F8D613B7C0DEBE9F19 /* Pods-OrbitCoordinator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OrbitCoordinator/Info.plist;
@@ -567,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OrbitCoordinator_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OrbitCoordinator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,

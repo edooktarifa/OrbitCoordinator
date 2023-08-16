@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        guard let nvc = navigationController else { return }
+                integratingFramework = IntegratingFramework(navigationController: nvc)
     }
 
     @IBAction func didSelectButton(_ sender: UIButton){

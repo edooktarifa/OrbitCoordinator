@@ -6,10 +6,10 @@ install! 'cocoapods', :deterministic_uuids => false
 
 platform :ios, '11.0'
 
-target 'OrbitCoordinator_Example' do
+target 'OrbitCoordinator' do
   pod 'OrbitCoordinator', :path => '../'
-	pod 'MyTelkomselSuperappFrameworkIntegration', :path => '../../../mytelkomsel-superapp-framework-integration-ios'
-  pod 'MyTelkomselSuperappFramework', :path => '../../../mytelkomsel-superapp-framework-ios'
+	pod 'MyTelkomselSuperappFrameworkIntegration', :path => '../../mytelkomsel-superapp-framework-integration-ios'
+  pod 'MyTelkomselSuperappFramework', :path => '../../mytelkomsel-superapp-framework-ios'
 
 flags = get_default_flags()
 
